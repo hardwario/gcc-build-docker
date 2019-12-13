@@ -23,6 +23,9 @@ docker run --rm -it -v `pwd`:/builds hardwario/gcc-build:latest make
 * python3 
 * python3-pip 
 * python3-venv 
+* ruby 
+* ruby-dev 
+* rubygems
 * sudo 
 * zip 
 * curl 
@@ -37,3 +40,6 @@ docker run --rm -it -v `pwd`:/builds hardwario/gcc-build:latest make
 * requests 
 * jsonschema 
 * deepdiff
+
+## Gem packages
+* fpm
