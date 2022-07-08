@@ -18,8 +18,6 @@ docker run --rm -it -v `pwd`:/builds hardwario/gcc-build:latest make
 * build-essential 
 * make 
 * cmake 
-* libzmq3-dev 
-* libssl-dev 
 * python3 
 * python3-pip 
 * python3-venv 

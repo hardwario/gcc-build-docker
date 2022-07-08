@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install -y build-essential make cmake && \
     apt-get install -y python3 python3-pip python3-venv && \
     apt-get install -y ruby ruby-dev rubygems && \
-    apt-get install -y libzmq3-dev libssl-dev sudo zip curl wget git && \
+    apt-get install -y sudo zip curl wget git && \
     pip3 install PyYAML Click click-log pyzmq requests jsonschema deepdiff && \
     gem install --no-document fpm && \
     apt-get autoclean -y && \
