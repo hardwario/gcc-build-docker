@@ -32,12 +32,16 @@ docker run --rm -it -v `pwd`:/builds hardwario/gcc-build:latest make
 
 ## PIP3 packages
 * PyYAML 
-* Click 
-* click-log 
-* pyzmq 
 * requests 
 * jsonschema 
 * deepdiff
 
 ## Gem packages
 * fpm
+
+## Local build
+```
+docker build -t gcc-build .
+```
+
+
